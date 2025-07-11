@@ -27,19 +27,33 @@ This project simplifies HR operations by providing a user-friendly interface for
 | Paradigm    | Object-Oriented Programming (OOP) |
 
 ---
-
-
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```bash
 Employee-Management-System/
-├── src/
-│   ├── Employee.java
-│   ├── SalaryModule.java
-│   ├── LeaveTracker.java
-│   ├── MainDashboard.java
-├── db/
-│   └── employee_db.sql
-├── lib/
-│   └── mysql-connector.jar
+├── lib/                         # External libraries
+│   ├── jcalendar-1.4.jar
+│   ├── mysql-connector.jar
+│   └── rs2xml.jar
+│
+├── resources/images/           # UI Assets
+│   ├── delete.png
+│   ├── front.gif
+│   ├── home.jpg
+│   ├── LoginB.jpg
+│   ├── print.jpg
+│   └── rback.png
+│
+├── src/employee/management/    # Source code
+│   ├── AddEmployee.java
+│   ├── conn.java
+│   ├── Login.java
+│   ├── Main_class.java
+│   ├── RemoveEmployee.java
+│   ├── Splash.java
+│   ├── UpdateEmployee.java
+│   └── View_Employee.java
+│
 ├── README.md
+
+
